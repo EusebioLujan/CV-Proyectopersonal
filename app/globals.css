@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+.bg-old-paper {
+  background-color: #f5f1e6;
+  background-image: url("/paper-texture.png");
+  background-blend-mode: multiply;
+}
+
+.bg-old-paper-dark {
+  background-color: #e8e1d1;
+  background-image: url("/paper-texture.png");
+  background-blend-mode: multiply;
+}
+
+.bg-old-paper-light {
+  background-color: #f9f6ef;
+  background-image: url("/paper-texture.png");
+  background-blend-mode: multiply;
+}
+
+.ornate-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.ornate-title::before,
+.ornate-title::after {
+  content: "❦";
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  opacity: 0.7;
+}
+
+.newspaper-heading {
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.font-fraktur {
+  font-family: var(--font-fraktur);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-old-standard {
+  font-family: var(--font-old-standard);
+}
+
+/* Paper edge effects */
+.paper-edge-top,
+.paper-edge-bottom,
+.paper-edge-left,
+.paper-edge-right {
+  position: fixed;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.paper-edge-top {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-image: url("/paper-edge-top.png");
+  background-repeat: repeat-x;
+}
+
+.paper-edge-bottom {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-image: url("/paper-edge-bottom.png");
+  background-repeat: repeat-x;
+}
+
+.paper-edge-left {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  background-image: url("/paper-edge-left.png");
+  background-repeat: repeat-y;
+}
+
+.paper-edge-right {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  background-image: url("/paper-edge-right.png");
+  background-repeat: repeat-y;
+}
+
+/* Fold line */
+.fold-line {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  z-index: 5;
+  pointer-events: none;
+}
+
+/* Skill cards */
+.skill-card {
+  border: 1px solid #333;
+  padding: 0.75rem;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.skill-icon {
+  margin-bottom: 0.5rem;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Vintage stamp */
+.vintage-stamp {
+  border: 2px solid #333;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  font-weight: bold;
+  transform: rotate(-5deg);
+  position: relative;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%) rotate(-5deg);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  color: #333;
+}
+
+/* Vintage ad */
+.vintage-ad {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+  .bg-old-paper,
+  .bg-old-paper-dark,
+  .bg-old-paper-light {
+    background-image: none;
+    background-color: white;
+  }
+
+  .paper-edge-top,
+  .paper-edge-bottom,
+  .paper-edge-left,
+  .paper-edge-right,
+  .fold-line {
+    display: none;
+  }
+}
