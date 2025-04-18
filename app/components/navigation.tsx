@@ -7,16 +7,16 @@ export function Navigation() {
   const { t } = useTranslations()
 
   const leftNavItems = [
-    { key: 'home', label: t('navigation.home') },
-    { key: 'projects', label: t('navigation.projects') },
-    { key: 'experience', label: t('navigation.experience') },
-    { key: 'certificates', label: t('navigation.certificates') },
-    { key: 'blog', label: t('navigation.blog') }
+    { key: 'home', label: t('navigation.home'), href: '/' },
+    { key: 'projects', label: t('navigation.projects'), href: '/projects' },
+    { key: 'experience', label: t('navigation.experience'), href: '/experience' },
+    { key: 'certificates', label: t('navigation.certificates'), href: '/certificates' },
+    { key: 'blog', label: t('navigation.blog'), href: '/blog' }
   ]
 
   const rightNavItems = [
-    { key: 'contact', label: t('navigation.contact') },
-    { key: 'playground', label: t('navigation.playground') }
+    { key: 'contact', label: t('navigation.contact'), href: '/contact' },
+    { key: 'playground', label: t('navigation.playground'), href: '/playground' }
   ]
 
   return (
@@ -26,7 +26,7 @@ export function Navigation() {
           {leftNavItems.map((item) => (
             <li key={item.key}>
               <Link
-                href="#"
+                href={item.href}
                 className="block px-4 py-3 hover:bg-gray-700 transition-colors"
               >
                 {item.label}
@@ -38,7 +38,7 @@ export function Navigation() {
           {rightNavItems.map((item) => (
             <li key={item.key}>
               <Link
-                href="#"
+                href={item.href}
                 className="block px-4 py-3 hover:bg-gray-700 transition-colors"
               >
                 {item.label}
@@ -49,4 +49,4 @@ export function Navigation() {
       </div>
     </nav>
   )
-} 
+}

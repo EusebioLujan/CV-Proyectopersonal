@@ -20,10 +20,6 @@ export default function Home() {
       <div className="paper-edge-bottom"></div>
       <div className="paper-edge-left"></div>
       <div className="paper-edge-right"></div>
-
-      {/* Fold line */}
-      <div className="fold-line"></div>
-
       <Header />
       <Navigation />
 
