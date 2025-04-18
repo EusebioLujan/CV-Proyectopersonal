@@ -1,13 +1,14 @@
 'use client'
 
-import { Sun } from "lucide-react"
 import { LanguageSwitch } from "./language-switch"
 import { useTranslations } from "../hooks/use-translations"
 import { useLanguage } from "../contexts/language-context"
+import { useHeaderWeather } from "../hooks/use-header-weather"
 
 export function Header() {
   const { t } = useTranslations()
   const { language } = useLanguage()
+  const { weather, loading, error } = useHeaderWeather()
   
   // Get current date in vintage newspaper format
   const today = new Date()
@@ -42,8 +43,20 @@ export function Header() {
             <LanguageSwitch />
           </div>
           <div className="flex items-center">
-            <Sun className="h-3 w-3 mr-1 text-yellow-600" />
-            <span>{t('header.weather')}</span>
+            {loading ? (
+              <span>{t('weather.loading')}</span>
+            ) : error ? (
+              <span>{error}</span>
+            ) : weather ? (
+              <div className="flex items-center">
+                <img 
+                  src={weather.icon} 
+                  alt={weather.description}
+                  className="h-6 w-6 mr-1"
+                />
+                <span>{weather.location}: {weather.temp}°C - {weather.description}</span>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>

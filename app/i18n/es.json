@@ -1,8 +1,7 @@
 {
   "header": {
     "title": "Eugenia Gramajo",
-    "subtitle": "La Crónica del Desarrollador",
-    "weather": "Nuevo Berlin: 25°C"
+    "subtitle": "La Crónica del Desarrollador"
   },
   "navigation": {
     "home": "Inicio",
@@ -65,14 +64,15 @@
     "quote": "\"Un desarrollador con tanto destreza técnica como habilidades interpersonales es un hallazgo raro.\""
   },
   "weather": {
-    "title": "INFORME DEL TIEMPO",
-    "location": "Nuevo Berlin",
-    "days": {
-      "today": "HOY",
-      "tomorrow": "MAÑANA",
-      "tuesday": "MARTES"
-    },
-    "footer": "Pronóstico del tiempo proporcionado por el Departamento Meteorológico de La Crónica del Desarrollador"
+    "title": "El Tiempo",
+    "loading": "Cargando...",
+    "error": "Error al cargar el clima",
+    "errorGeneric": "No se pudo cargar el clima",
+    "in": "El Tiempo en",
+    "maxTemp": "Máxima",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "kmh": "km/h"
   },
   "classified": {
     "title": "Anuncio Clasificado",

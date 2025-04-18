@@ -1,8 +1,7 @@
 {
   "header": {
     "title": "Eugenia Gramajo",
-    "subtitle": "The Developer's Chronicle",
-    "weather": "Nuevo Berlin: 25°C"
+    "subtitle": "The Developer's Chronicle"
   },
   "navigation": {
     "home": "Home",
@@ -64,16 +63,6 @@
     },
     "quote": "\"A developer with both technical prowess and interpersonal skills is a rare find indeed.\""
   },
-  "weather": {
-    "title": "WEATHER REPORT",
-    "location": "Nuevo Berlin",
-    "days": {
-      "today": "TODAY",
-      "tomorrow": "TOMORROW",
-      "tuesday": "TUESDAY"
-    },
-    "footer": "Weather forecast provided by The Developer's Chronicle Meteorological Department"
-  },
   "classified": {
     "title": "Classified Advertisement",
     "heading": "DEVELOPER FOR HIRE",
@@ -85,5 +74,16 @@
     "volume": "Vol. XXIII, No. 42",
     "copyright": "Page created by Eugenia Gramajo - all rights reserved 2023",
     "price": "5¢"
+  },
+  "weather": {
+    "title": "Weather",
+    "loading": "Loading...",
+    "error": "Error loading weather",
+    "errorGeneric": "Could not load weather",
+    "in": "Weather in",
+    "maxTemp": "Max",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "kmh": "km/h"
   }
 } 
