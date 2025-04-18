@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Eugenia Gramajo",
+    "subtitle": "The Developer's Chronicle",
+    "weather": "Nuevo Berlin: 25°C"
+  },
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "certificates": "Certificates",
+    "blog": "Blog",
+    "contact": "Contact",
+    "playground": "Playground"
+  },
+  "breakingNews": {
+    "title": "BREAKING NEWS",
+    "content": "Talented developer Eugenia Gramajo launches innovative portfolio website with vintage newspaper aesthetic!"
+  },
+  "profile": {
+    "title": "FULL-STACK DEVELOPER",
+    "description": "I am a highly skilled Full Stack developer passionate about programming based in Uruguay. Since discovering my interest in this field, I have strived to improve my skills and knowledge daily, allowing me to grow professionally.",
+    "description2": "I am highly motivated and dedicated, always looking for new opportunities to challenge myself and continue growing as a developer."
+  },
+  "adventure": {
+    "title": "A TECHNOLOGICAL ADVENTURE",
+    "content": "Exploring the vast landscape of code, Eugenia Gramajo has embarked on a grand journey. As a pioneer of this new age, this bold programmer has challenged the frontiers of code. Her projects, imbued with the spirit of exploration from the golden years, bridge nostalgia with the future.",
+    "quote": "\"Programming is not just about writing code,\" says Gramajo, \"it's about solving problems and creating experiences that resonate with users.\"",
+    "content2": "Join us on her journey towards the technological marvels of tomorrow! With each line of code, a new possibility emerges, a new frontier is conquered."
+  },
+  "advertisement": {
+    "title": "Advertisement",
+    "heading": "Need a Developer?",
+    "subheading": "Hire Eugenia Today!",
+    "footer": "Satisfaction Guaranteed"
+  },
+  "expertise": {
+    "title": "TECHNICAL EXPERTISE",
+    "skills": {
+      "javascript": "JavaScript",
+      "react": "React",
+      "nodejs": "Node.js",
+      "htmlcss": "HTML/CSS",
+      "typescript": "TypeScript",
+      "postgresql": "PostgreSQL"
+    }
+  },
+  "meeting": {
+    "title": "SCHEDULE A MEETING",
+    "announcement": "Special Announcement",
+    "urgent": "URGENT",
+    "content": "Extra, extra! Secure your seat on the time machine for an authentic experience. Click on the banner or button below to schedule your rendezvous with me on our calendar.",
+    "available": "Available Now!",
+    "button": "Schedule a Meeting"
+  },
+  "qualities": {
+    "title": "PERSONAL QUALITIES",
+    "items": {
+      "problemSolving": "Problem Solving - Analytical approach to challenges",
+      "communication": "Communication - Clear and effective expression",
+      "teamwork": "Teamwork - Collaborative and supportive",
+      "adaptability": "Adaptability - Quick to learn new technologies",
+      "timeManagement": "Time Management - Efficient and organized"
+    },
+    "quote": "\"A developer with both technical prowess and interpersonal skills is a rare find indeed.\""
+  },
+  "weather": {
+    "title": "WEATHER REPORT",
+    "location": "Nuevo Berlin",
+    "days": {
+      "today": "TODAY",
+      "tomorrow": "TOMORROW",
+      "tuesday": "TUESDAY"
+    },
+    "footer": "Weather forecast provided by The Developer's Chronicle Meteorological Department"
+  },
+  "classified": {
+    "title": "Classified Advertisement",
+    "heading": "DEVELOPER FOR HIRE",
+    "content": "Experienced Full-Stack Developer available for projects, consultations, and permanent positions.",
+    "footer": "Will code for coffee",
+    "note": "Contact information in the header section"
+  },
+  "footer": {
+    "volume": "Vol. XXIII, No. 42",
+    "copyright": "Page created by Eugenia Gramajo - all rights reserved 2023",
+    "price": "5¢"
+  }
+} 

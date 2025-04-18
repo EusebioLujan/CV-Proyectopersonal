@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Eugenia Gramajo",
+    "subtitle": "La Crónica del Desarrollador",
+    "weather": "Nuevo Berlin: 25°C"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "certificates": "Certificados",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "playground": "Área de Pruebas"
+  },
+  "breakingNews": {
+    "title": "ÚLTIMAS NOTICIAS",
+    "content": "¡La talentosa desarrolladora Eugenia Gramajo lanza un innovador sitio web de portafolio con estética de periódico vintage!"
+  },
+  "profile": {
+    "title": "DESARROLLADORA FULL-STACK",
+    "description": "Soy una desarrolladora Full Stack altamente calificada y apasionada por la programación, radicada en Uruguay. Desde que descubrí mi interés en este campo, me he esforzado por mejorar mis habilidades y conocimientos diariamente, permitiéndome crecer profesionalmente.",
+    "description2": "Estoy altamente motivada y dedicada, siempre buscando nuevas oportunidades para desafiarme a mí misma y seguir creciendo como desarrolladora."
+  },
+  "adventure": {
+    "title": "UNA AVENTURA TECNOLÓGICA",
+    "content": "Explorando el vasto paisaje del código, Eugenia Gramajo ha embarcado en un gran viaje. Como pionera de esta nueva era, esta audaz programadora ha desafiado las fronteras del código. Sus proyectos, imbuidos con el espíritu de exploración de los años dorados, conectan la nostalgia con el futuro.",
+    "quote": "\"La programación no se trata solo de escribir código\", dice Gramajo, \"se trata de resolver problemas y crear experiencias que resuenen con los usuarios.\"",
+    "content2": "¡Únete a nosotros en su viaje hacia las maravillas tecnológicas del mañana! Con cada línea de código, emerge una nueva posibilidad, se conquista una nueva frontera."
+  },
+  "advertisement": {
+    "title": "Anuncio",
+    "heading": "¿Necesitas un Desarrollador?",
+    "subheading": "¡Contrata a Eugenia Hoy!",
+    "footer": "Satisfacción Garantizada"
+  },
+  "expertise": {
+    "title": "EXPERIENCIA TÉCNICA",
+    "skills": {
+      "javascript": "JavaScript",
+      "react": "React",
+      "nodejs": "Node.js",
+      "htmlcss": "HTML/CSS",
+      "typescript": "TypeScript",
+      "postgresql": "PostgreSQL"
+    }
+  },
+  "meeting": {
+    "title": "PROGRAMAR UNA REUNIÓN",
+    "announcement": "Anuncio Especial",
+    "urgent": "URGENTE",
+    "content": "¡Extra, extra! Asegura tu lugar en la máquina del tiempo para una experiencia auténtica. Haz clic en el banner o botón de abajo para programar tu encuentro conmigo en nuestro calendario.",
+    "available": "¡Disponible Ahora!",
+    "button": "Programar una Reunión"
+  },
+  "qualities": {
+    "title": "CUALIDADES PERSONALES",
+    "items": {
+      "problemSolving": "Resolución de Problemas - Enfoque analítico para los desafíos",
+      "communication": "Comunicación - Expresión clara y efectiva",
+      "teamwork": "Trabajo en Equipo - Colaborativo y solidario",
+      "adaptability": "Adaptabilidad - Rápido para aprender nuevas tecnologías",
+      "timeManagement": "Gestión del Tiempo - Eficiente y organizado"
+    },
+    "quote": "\"Un desarrollador con tanto destreza técnica como habilidades interpersonales es un hallazgo raro.\""
+  },
+  "weather": {
+    "title": "INFORME DEL TIEMPO",
+    "location": "Nuevo Berlin",
+    "days": {
+      "today": "HOY",
+      "tomorrow": "MAÑANA",
+      "tuesday": "MARTES"
+    },
+    "footer": "Pronóstico del tiempo proporcionado por el Departamento Meteorológico de La Crónica del Desarrollador"
+  },
+  "classified": {
+    "title": "Anuncio Clasificado",
+    "heading": "DESARROLLADORA DISPONIBLE",
+    "content": "Desarrolladora Full-Stack con experiencia disponible para proyectos, consultas y posiciones permanentes.",
+    "footer": "Contactar por café",
+    "note": "Información de contacto en la sección de encabezado"
+  },
+  "footer": {
+    "volume": "Vol. XXIII, No. 42",
+    "copyright": "Página creada por Eugenia Gramajo - todos los derechos reservados 2023",
+    "price": "5¢"
+  }
+} 
